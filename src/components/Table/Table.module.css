@@ -1,0 +1,22 @@
+.table_style {
+	/* table-layout: fixed; */
+	width: 100%;
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+thead, th, td {
+	border: 2px solid black;
+}
+th {
+	background-color: #a7cff3;
+}
+.error{
+	background-color: rgb(207, 105, 105);
+}
+.error_message {
+	background-color: #F4CCCC;
+	width: 50%;
+	padding: 10px 0;
+	margin: 0 auto;
+}

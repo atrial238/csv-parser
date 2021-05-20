@@ -1,0 +1,17 @@
+.button {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+button {
+	padding: 5px 25px;
+	background-color: #9fc98c;
+	cursor: pointer;
+	transition: all .4s;
+	margin-right: 15px;
+} 
+button:hover {
+	color: white;
+	background-color: #80a171;
+}
