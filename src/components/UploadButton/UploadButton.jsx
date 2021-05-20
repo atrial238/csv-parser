@@ -9,7 +9,6 @@ const UploadButton = ({setFatalError, setData}) => {
 	const handleOpenDialog = (e) => (buttonRef.current) ? buttonRef.current.open(e) : null;
 
 	const handleOnFileLoad = (data, file) => {
-		console.log(data)
 		setData(data);
 		/csv$/.test(file.name) ? setFatalError(false) : setFatalError(true);
 	};
