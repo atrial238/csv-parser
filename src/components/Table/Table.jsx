@@ -27,7 +27,7 @@ const Table = ({data, setFatalError, fatalError}) => {
 				[<td key='-1'>{indexRow + 1}</td>, ...el.data.map((el, i, arr) => {
 					el = el.trim();
 					//do validation
-					switch(i){
+					switch(i){ 
 						//validate full name
 						case 0:
 							if(el === '') setFatalError(true);
